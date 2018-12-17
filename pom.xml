@@ -28,7 +28,9 @@
         <module>ui.content</module>
         <module>it.tests</module>
         <module>it.launcher</module>
-        <module>it.BDDTests</module>
+        <module>CICD.it.contract-test</module>
+        <module>CICD.it.bdd-tests</module>
+        <module>CICD.it.regression-tests</module>
     </modules>
 
     <properties>
