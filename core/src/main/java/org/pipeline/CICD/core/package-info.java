@@ -14,6 +14,6 @@
  *  limitations under the License.
  */
 @Version("1.0")
-package org.pipeline.CICD.core;
+package org.pipeline.cicd.core;
 
 import org.osgi.annotation.versioning.Version;

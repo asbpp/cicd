@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/conf/testcicdpipeline" mode="merge"/>
-    <filter root="/content/testcicdpipeline" mode="merge"/>
-    <filter root="/content/dam/testcicdpipeline" mode="merge"/>
+    <filter root="/conf/cicdtest" mode="merge"/>
+    <filter root="/content/cicdtest" mode="merge"/>
+    <filter root="/content/dam/cicdtest" mode="merge"/>
 </workspaceFilter>

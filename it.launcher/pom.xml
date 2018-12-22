@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.pipeline</groupId>
-        <artifactId>CICD</artifactId>
+        <artifactId>cicd</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -27,10 +27,10 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>CICD.it.launcher</artifactId>
+    <artifactId>cicd.it.launcher</artifactId>
     <packaging>jar</packaging>
-    <name>Test CICD Pipeline - Integration Tests Launcher</name>
-    <description>Integration Tests Launcher for Test CICD Pipeline</description>
+    <name>CICD Test - Integration Tests Launcher</name>
+    <description>Integration Tests Launcher for CICD Test</description>
 
     <!-- <scm>
         <connection></connection>
@@ -230,8 +230,8 @@
                                 -->
                                 <sling.additional.bundle.1>org.apache.sling.junit.core</sling.additional.bundle.1>
                                 <sling.additional.bundle.2>org.apache.sling.junit.scriptable</sling.additional.bundle.2>
-                                <sling.additional.bundle.3>CICD.it.tests</sling.additional.bundle.3>
-                                <sling.additional.bundle.4>CICD.core</sling.additional.bundle.4>
+                                <sling.additional.bundle.3>cicd.it.tests</sling.additional.bundle.3>
+                                <sling.additional.bundle.4>cicd.core</sling.additional.bundle.4>
                                 <sling.additional.bundle.5>org.apache.sling.junit.remote</sling.additional.bundle.5>
                                 <sling.additional.bundle.6>org.apache.sling.testing.tools</sling.additional.bundle.6>
                             </systemPropertyVariables>
@@ -308,12 +308,12 @@
         </dependency>
         <dependency>
             <groupId>org.pipeline</groupId>
-            <artifactId>CICD.it.tests</artifactId>
+            <artifactId>cicd.it.tests</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.pipeline</groupId>
-            <artifactId>CICD.core</artifactId>
+            <artifactId>cicd.core</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

@@ -22,7 +22,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>org.pipeline</groupId>
-        <artifactId>CICD</artifactId>
+        <artifactId>cicd</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -30,10 +30,10 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>CICD.ui.apps</artifactId>
+    <artifactId>cicd.ui.apps</artifactId>
     <packaging>content-package</packaging>
-    <name>Test CICD Pipeline - UI apps</name>
-    <description>UI apps package for Test CICD Pipeline</description>
+    <name>CICD Test - UI apps</name>
+    <description>UI apps package for CICD Test</description>
 
     <!-- <scm>
         <connection></connection>
@@ -92,8 +92,8 @@
                     <embeddeds>
                         <embedded>
                             <groupId>org.pipeline</groupId>
-                            <artifactId>CICD.core</artifactId>
-                            <target>/apps/testcicdpipeline/install</target>
+                            <artifactId>cicd.core</artifactId>
+                            <target>/apps/cicdtest/install</target>
                         </embedded>
                     </embeddeds>
                     <subPackages>
@@ -112,7 +112,7 @@
                 <configuration>
                     <verbose>true</verbose>
                     <failOnError>true</failOnError>
-                    <group>Test CICD Pipeline Content Package</group>
+                    <group>CICD Test Content Package</group>
                 </configuration>
             </plugin>
 
@@ -129,7 +129,7 @@
     <dependencies>
         <dependency>
             <groupId>org.pipeline</groupId>
-            <artifactId>CICD.core</artifactId>
+            <artifactId>cicd.core</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

@@ -22,7 +22,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>org.pipeline</groupId>
-        <artifactId>CICD</artifactId>
+        <artifactId>cicd</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -30,10 +30,10 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>CICD.it.tests</artifactId>
+    <artifactId>cicd.it.tests</artifactId>
     <packaging>bundle</packaging>
-    <name>Test CICD Pipeline - Integration Tests Bundles</name>
-    <description>Bundles for Integration Tests for Test CICD Pipeline</description>
+    <name>CICD Test - Integration Tests Bundles</name>
+    <description>Bundles for Integration Tests for CICD Test</description>
 
     <!-- <scm>
         <connection></connection>
@@ -91,7 +91,7 @@
 
         <dependency>
             <groupId>org.pipeline</groupId>
-            <artifactId>CICD.core</artifactId>
+            <artifactId>cicd.core</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <type>bundle</type>
             <scope>provided</scope>

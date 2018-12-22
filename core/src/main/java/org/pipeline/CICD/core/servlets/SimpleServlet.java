@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package org.pipeline.CICD.core.servlets;
+package org.pipeline.cicd.core.servlets;
 
 import com.day.cq.commons.jcr.JcrConstants;
 import org.apache.sling.api.SlingHttpServletRequest;
@@ -40,7 +40,7 @@ import java.io.IOException;
            property={
                    Constants.SERVICE_DESCRIPTION + "=Simple Demo Servlet",
                    "sling.servlet.methods=" + HttpConstants.METHOD_GET,
-                   "sling.servlet.resourceTypes="+ "testcicdpipeline/components/structure/page",
+                   "sling.servlet.resourceTypes="+ "cicdtest/components/structure/page",
                    "sling.servlet.extensions=" + "txt"
            })
 public class SimpleServlet extends SlingSafeMethodsServlet {

@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package org.pipeline.CICD.core.listeners;
+package org.pipeline.cicd.core.listeners;
 
 import org.apache.sling.api.SlingConstants;
 import org.junit.Test;

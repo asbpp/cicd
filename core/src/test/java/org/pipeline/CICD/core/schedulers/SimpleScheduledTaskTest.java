@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package org.pipeline.CICD.core.schedulers;
+package org.pipeline.cicd.core.schedulers;
 
 import org.junit.Rule;
 import org.junit.Test;

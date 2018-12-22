@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package org.pipeline.CICD.core.filters;
+package org.pipeline.cicd.core.filters;
 
 import java.io.IOException;
 import javax.servlet.Filter;
